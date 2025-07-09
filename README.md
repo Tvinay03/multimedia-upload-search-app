@@ -51,7 +51,7 @@ A full-stack web application for uploading, managing, and searching multimedia f
    CLOUDINARY_CLOUD_NAME=your_cloud_name
    CLOUDINARY_API_KEY=your_api_key
    CLOUDINARY_API_SECRET=your_api_secret
-   CORS_ORIGIN=http://localhost:5173
+   CORS_ORIGIN=https://multimedia-upload-search-app-1.onrender.com
    ```
    
    Frontend `.env`:

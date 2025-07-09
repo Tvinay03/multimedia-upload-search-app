@@ -141,7 +141,7 @@ CLOUDINARY_API_SECRET=SuiDxaphYLn8P4rJ8TwKg1f0CJk
 CLOUDINARY_URL=cloudinary://964322631617663:SuiDxaphYLn8P4rJ8TwKg1f0CJk@dwykuxqcn
 
 # CORS
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=https://multimedia-upload-search-app-1.onrender.com
 
 # File Upload
 MAX_FILE_SIZE=10485760
