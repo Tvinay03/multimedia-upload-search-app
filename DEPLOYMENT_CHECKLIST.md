@@ -51,14 +51,14 @@ ALLOWED_FILE_TYPES=image/jpeg,image/png,image/gif,video/mp4,video/avi,audio/mp3,
 
 ### **✅ Deployment Status: COMPLETED**
 - **Platform:** Render
-- **URL:** https://multimedia-upload-search-app-1.onrender.com
+- **URL:** https://multimedia-upload-search-app.onrender.com
 - **Status:** ✅ Live and operational
 
 ## 🌐 **Frontend Deployment (Vercel/Netlify)**
 
 ### **Environment Variables Required:**
 ```env
-VITE_API_URL=https://multimedia-upload-search-app-1.onrender.com/api
+VITE_API_URL=https://multimedia-upload-search-app.onrender.com/api
 ```
 
 ### **Build Settings:**
