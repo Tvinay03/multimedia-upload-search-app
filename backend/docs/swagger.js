@@ -31,7 +31,7 @@ const swaggerOptions = {
         \`Authorization: Bearer <your-jwt-token>\`
         
         ## Base URL
-        - Development: \`http://localhost:5000\`
+        - Development: \`http://localhost:8000\`
         - Production: \`https://your-api-domain.com\`
       `,
       contact: {
@@ -46,8 +46,8 @@ const swaggerOptions = {
     servers: [
       {
         url: process.env.NODE_ENV === 'production' 
-          ? 'https://your-api-domain.com' 
-          : 'http://localhost:5000',
+          ? 'https://multimedia-upload-search-app.onrender.com' 
+          : 'http://localhost:8000',
         description: process.env.NODE_ENV === 'production' 
           ? 'Production server' 
           : 'Development server'
@@ -324,7 +324,7 @@ function setupSwagger(app) {
     });
     
     console.log('✅ Swagger documentation setup complete');
-    console.log('📖 API Documentation: http://localhost:5000/api-docs');
+    console.log('📖 API Documentation: http://localhost:8000/api-docs');
     
   } catch (error) {
     console.error('❌ Swagger setup failed:', error);

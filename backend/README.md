@@ -125,7 +125,7 @@ Create a `.env` file in the root directory with the following variables:
 ```env
 # Server Configuration
 NODE_ENV=development
-PORT=5000
+PORT=8000
 
 # Database
 MONGODB_URI=mongodb+srv://chinnuvinay663:WL9UK2pKQMrC3rXy@mvp-cluster.gubfphm.mongodb.net/multimedia-app
@@ -157,11 +157,11 @@ npm run dev
 npm start
 ```
 
-The server will start on `http://localhost:5000`
+The server will start on `http://localhost:8000`
 
 ## 📚 API Documentation
 
-Access the interactive Swagger documentation at: `http://localhost:5000/api-docs`
+Access the interactive Swagger documentation at: `http://localhost:8000/api-docs`
 
 ### Authentication Endpoints
 
@@ -210,7 +210,7 @@ Authorization: Bearer <your-jwt-token>
 ### Upload Request Example
 ```bash
 curl -X POST \
-  http://localhost:5000/api/files/upload \
+  http://localhost:8000/api/files/upload \
   -H 'Authorization: Bearer <your-jwt-token>' \
   -H 'Content-Type: multipart/form-data' \
   -F 'file=@/path/to/your/file.jpg' \
@@ -306,7 +306,7 @@ Search results are ranked based on:
 ### Environment Variables for Production
 ```env
 NODE_ENV=production
-PORT=5000
+PORT=8000
 MONGODB_URI=<your-production-mongodb-uri>
 JWT_SECRET=<your-production-jwt-secret>
 # ... other production configs
@@ -350,7 +350,7 @@ JWT_SECRET=<your-production-jwt-secret>
 ### Test User Registration
 ```bash
 curl -X POST \
-  http://localhost:5000/api/auth/register \
+  http://localhost:8000/api/auth/register \
   -H 'Content-Type: application/json' \
   -d '{
     "name": "John Doe",

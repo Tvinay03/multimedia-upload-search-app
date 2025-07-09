@@ -10,7 +10,7 @@ class AppConfig {
    */
   static getServerConfig() {
     return {
-      port: process.env.PORT || 5000,
+      port: process.env.PORT || 8000,
       nodeEnv: process.env.NODE_ENV || 'development',
       corsOrigin: process.env.CORS_ORIGIN || 'http://localhost:3000'
     };
@@ -82,7 +82,7 @@ class AppConfig {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         maxPoolSize: 10,
-        serverSelectionTimeoutMS: 5000,
+        serverSelectionTimeoutMS: 8000,
         socketTimeoutMS: 45000,
         family: 4
       }
